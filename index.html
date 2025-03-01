@@ -3,11 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Básica</title>
-    
+    <title>William Szalai - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <p>Este é um exemplo básico de HTML.</p>
+    <header>
+        <div class="container">
+            <img src="perfil.jpg" alt="Foto de William Szalai" class="profile-img">
+            <h1>William Szalai</h1>
+            <p class="subtitle">Python Automator & Landing Page Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor especializado em automação com Python e criação de Landing Pages. Ajudo empresas e profissionais a otimizarem processos e melhorarem sua presença digital.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos Recentes</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Automação de Processos</h3>
+                    <p>Scripts avançados de automação para aumentar a produtividade.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Landing Pages Otimizadas</h3>
+                    <p>Designs responsivos e focados em conversão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Precisa de um projeto ou quer bater um papo? Me chame!</p>
+            <a href="mailto:william.szalai@jucerja.rj.gov.br" class="btn">Enviar E-mail</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 William Szalai. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
