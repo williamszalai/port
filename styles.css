@@ -8,16 +8,16 @@
 
 /* Estrutura Geral */
 body {
-    background: #f4f4f4;
-    color: #333;
+    background-color: #222222; /* Fundo escuro sofisticado */
+    color: #D8D4D3; /* Texto em cinza claro */
     text-align: center;
     line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-    background: #222;
-    color: #fff;
+    background-color: #1D1210; /* Preto profundo */
+    color: #FFFFFF;
     padding: 40px 0;
 }
 
@@ -30,18 +30,20 @@ header {
 .profile-img {
     width: 150px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid #FFFFFF;
 }
 
+/* Títulos */
 h1 {
     margin-top: 10px;
     font-size: 28px;
+    color: #FFFFFF;
 }
 
 .subtitle {
     font-size: 18px;
     font-weight: 300;
-    color: #ccc;
+    color: #D8D4D3;
 }
 
 /* Navegação */
@@ -56,27 +58,30 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #D8D4D3;
     text-decoration: none;
     font-size: 16px;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #3F2E2B; /* Destaque na cor do terno */
 }
 
 /* Seções */
 .section {
     padding: 60px 20px;
-    background: #fff;
+    background-color: #FFFFFF; /* Fundo branco para contraste */
+    color: #222222; /* Texto escuro para melhor legibilidade */
     margin: 20px auto;
     border-radius: 10px;
     max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #1D1210;
 }
 
 /* Projetos */
@@ -88,35 +93,39 @@ h2 {
 
 .project-card {
     flex: 1;
-    background: #eee;
+    background-color: #D8D4D3;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .project-card h3 {
     margin-bottom: 10px;
+    color: #3F2E2B; /* Cor do terno */
 }
 
-/* Contato */
+/* Botão de Contato */
 .btn {
     display: inline-block;
     padding: 12px 20px;
-    background: #333;
-    color: #fff;
+    background-color: #3F2E2B; /* Botão na cor do terno */
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background: #555;
+    background-color: #D8D4D3; /* Efeito hover mais claro */
+    color: #222222;
 }
 
 /* Rodapé */
 footer {
-    background: #222;
-    color: #ccc;
+    background-color: #1D1210;
+    color: #D8D4D3;
     padding: 20px;
     margin-top: 40px;
 }
